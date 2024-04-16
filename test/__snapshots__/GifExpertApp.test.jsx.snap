@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GifExpertApp /> Should have an initial value 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1
+      class="header__title"
+    >
+      Gif Expert App
+    </h1>
+    <form
+      aria-label="form"
+    >
+      <input
+        class="inputSearch"
+        placeholder="Buscar gifs"
+        type="text"
+        value=""
+      />
+    </form>
+  </header>
+  <div
+    class="grid-card"
+  >
+    <h3
+      aria-label="cardTitle"
+      class="grid-card__title"
+    >
+      Dragon Ball
+    </h3>
+    <p>
+      Cargando...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Testing <GifExpertApp /> Snapshot should be the same 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <h1
+      class="header__title"
+    >
+      Gif Expert App
+    </h1>
+    <form
+      aria-label="form"
+    >
+      <input
+        class="inputSearch"
+        placeholder="Buscar gifs"
+        type="text"
+        value=""
+      />
+    </form>
+  </header>
+  <div
+    class="grid-card"
+  >
+    <h3
+      aria-label="cardTitle"
+      class="grid-card__title"
+    >
+      Dragon Ball
+    </h3>
+    <p>
+      Cargando...
+    </p>
+  </div>
+</div>
+`;
