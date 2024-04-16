@@ -8,7 +8,7 @@ export const GifGrid = ({ category }) => {
 
   return (
     <div className="grid-card">
-      <h3 className="grid-card__title">{category}</h3>
+      <h3 className="grid-card__title" aria-label='cardTitle'>{category}</h3>
 
       {
         !isLoading ?
@@ -22,5 +22,5 @@ export const GifGrid = ({ category }) => {
 };
 
 GifGrid.propTypes = {
-  category: PropTypes.string
+  category: PropTypes.string.isRequired
 }
